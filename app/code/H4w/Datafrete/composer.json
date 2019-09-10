@@ -1,0 +1,22 @@
+{
+    "name": "h4w/module-datafrete",
+    "description": "",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "contato@yauari.com.br",
+            "name": "Yauari Vieira"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "H4w\\Datafrete\\": ""
+        }
+    }
+}
